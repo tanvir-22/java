@@ -1,0 +1,25 @@
+package com.tanvir;
+import java.util.Scanner;
+import java.lang.Math;
+public class q {
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter height : ");
+        int height= sc.nextInt();
+        System.out.println("enter width : " );
+        int width= sc.nextInt();
+        System.out.println("enter radius : ");
+        int radius= sc.nextInt();
+        int z=((height*height)+(width*width));
+        double y=Math.sqrt(z);
+        if(y<=(radius*2))
+        {
+            System.out.print("the rectangle can fit in the circle!");
+        }
+        else {
+            System.out.print("diameter is ="+y);
+            System.out.print("\nno its not possible");
+        }
+        }
+    }
