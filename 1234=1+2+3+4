@@ -1,0 +1,18 @@
+package com.tanvir;
+import java.util.Scanner;
+public class q {
+    public static void main(String[] args){
+      Scanner in=new Scanner(System.in);
+      System.out.println("enter number between 0 to 1000");
+      int n= in.nextInt();
+      int m,sum=0,rem=0;
+      while(n!=0)
+      {
+          m=n;
+          rem=m%10;
+          sum+=rem;
+          n=n/10;
+      }
+    System.out.println("total = "+sum);
+    }
+}
