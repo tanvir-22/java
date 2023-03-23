@@ -1,0 +1,12 @@
+package com.tanvir;
+import java.text.DecimalFormat;
+public class q {
+    public static void main(String[] args){
+      DecimalFormat sc =new DecimalFormat("$#.##");
+      double a=15_000.12560;
+      String shafin=sc.format(a);
+      System.out.println(shafin);
+
+
+    }
+}
