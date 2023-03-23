@@ -13,3 +13,26 @@ public class q {
      }
     }
 }
+
+
+
+
+
+import java.util.Scanner;
+public class q {
+    public static void main(String[] argc){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter a number : ");
+        int a= input.nextInt();
+        System.out.println("enter another number : ");
+        int b=input.nextInt();
+        boolean isAequalB= a==b;
+        System.out.println("isAequalB="+isAequalB);
+        boolean isAnotequalB= a!=b;
+        System.out.println("isAnotequalB="+isAnotequalB);
+        boolean isAgreaterorequaltoB= a>=b;
+        System.out.println("isAgreaterorequaltoB="+isAgreaterorequaltoB);
+        boolean isAlessthanorequaltoB=a<=b;
+        System.out.println("isAlessthanorequaltoB="+isAlessthanorequaltoB);
+    }
+}
