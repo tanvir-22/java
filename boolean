@@ -1,0 +1,15 @@
+public class q {
+    public static void main(String[] args){
+     int a=7;
+     int b=23;
+     boolean m = a>b;
+     if (m)
+     {
+         System.out.println("a>b");
+     }
+     else
+     {
+         System.out.println("a<b");
+     }
+    }
+}
