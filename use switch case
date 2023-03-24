@@ -62,6 +62,7 @@ public class q{
             break;
             case 6:
             case 7:System.out.println("weekends");
+             default:System.out.println("wrong input");
         }
 
     }
