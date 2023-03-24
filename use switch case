@@ -84,6 +84,7 @@ public class q{
         {
             case 1,2,3,4,5->System.out.println("workdays");
             case 6,7->System.out.println("weekends");
+              default -> System.out.println("wrong input!");
         }
 
     }
