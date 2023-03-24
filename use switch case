@@ -37,3 +37,32 @@ public class q{
 
     }
 }
+
+
+
+
+
+package com.tanvir;
+import java.util.Scanner;
+public class q{
+    public static void main(String[] args)
+    {
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter your choice : ");
+        int a= sc.nextInt();
+        switch (a)
+        {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:System.out.println("workdays");
+            break;
+            case 6:
+            default:System.out.println("weekends");
+        }
+
+    }
+}
