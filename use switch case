@@ -67,3 +67,24 @@ public class q{
 
     }
 }
+
+
+
+
+package com.tanvir;
+import java.util.Scanner;
+public class q{
+    public static void main(String[] args)
+    {
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter your choice : ");
+        int a= sc.nextInt();
+        switch (a)
+        {
+            case 1,2,3,4,5->System.out.println("workdays");
+            case 6,7->System.out.println("weekends");
+        }
+
+    }
+}
