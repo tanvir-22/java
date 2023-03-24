@@ -1,0 +1,39 @@
+package com.tanvir;
+import java.util.Scanner;
+public class q{
+    public static void main(String[] args)
+    {
+        System.out.println("""
+                0.Download MyGp
+                1.Balance,call rate
+                2.GP star
+                3.Internet pack
+                4.Talk time
+                5.My offers
+                6.Welcome tune
+                """);
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter your choice : ");
+        int a= sc.nextInt();
+        switch (a)
+        {
+            case 0:
+                System.out.println("Downloading mygp");
+                break;
+            case 1:System.out.println("you dont have sufficient balance");
+            break;
+            case 2:System.out.println("your sounding preveliged");
+            break;
+            case 3:System.out.println("1 Gb at TK 15");
+            break;
+            case 4:System.out.println("you have hundred minutes free talk time");
+            break;
+            case 5:System.out.println("you don't have any offfer");
+            break;
+            case 6:System.out.println("we are out of service");
+            break;
+            default:System.out.println("wrong input!");
+        }
+
+    }
+}
