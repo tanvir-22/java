@@ -61,7 +61,7 @@ public class q{
             case 5:System.out.println("workdays");
             break;
             case 6:
-            default:System.out.println("weekends");
+            case 7:System.out.println("weekends");
         }
 
     }
